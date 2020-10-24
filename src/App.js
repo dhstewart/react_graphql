@@ -7,7 +7,7 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 import Dashboard from "./modules/dashboard"
 
 const link = createHttpLink({
-  uri: 'https://localhost:3000/graphql'
+  uri: 'http://localhost:3000/graphql'
 });
 
 const client = new ApolloClient({
